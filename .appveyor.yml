@@ -16,7 +16,7 @@ install:
   - "python -m pip install --disable-pip-version-check --user --upgrade pip"
 
   # Installing Poetry
-  - "python get-poetry --preview -y"
+  - "python get-poetry.py --preview -y"
   # Add Poetry to PATH
   - set PATH=%PATH%;C:\Users\appveyor\.poetry\bin
 
